@@ -8,7 +8,8 @@ This project focuses on preparing data for training neural networks by performin
 
 ## Files in the Repository
 1. **1) Preprocessing for NN.ipynb**: This notebook covers all steps from EDA to data preprocessing and feature scaling.
-2. **hcvdat0.csv**: The dataset used in the analysis (replace with your actual dataset file).
+2. **2) hcvdat0.csv**: The dataset used in the analysis (replace with your actual dataset file).
+3. **3) metadata.txt**: A text file containing metadata and additional information about the dataset.
 
 ## Key Steps
 
