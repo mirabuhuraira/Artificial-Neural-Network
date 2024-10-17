@@ -23,7 +23,7 @@ Before jumping into preprocessing, **EDA** is performed to understand the struct
 Categorical variables (such as gender or target classes) are converted into numerical form using `LabelEncoder`:
 - **Why?** Neural networks and most machine learning algorithms work better with numerical data.
 - **How?** Each unique category is mapped to an integer value.
-- 
+
 ### 3. Train-Test Split
 The dataset is split into **training** and **test sets** to ensure that model performance is evaluated on unseen data. We use `train_test_split` to create an 80-20 split.
 
