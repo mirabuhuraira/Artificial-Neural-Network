@@ -18,13 +18,13 @@ Before jumping into preprocessing, **EDA** is performed to understand the struct
 - **Descriptive Statistics**: Summarizing the dataset to understand the distribution of numerical and categorical variables.
 - **Distribution of Features**: Plotting histograms, pie charts or using other visualization techniques to see how different features are distributed.
 
-### 2. Train-Test Split
-The dataset is split into **training** and **test sets** to ensure that model performance is evaluated on unseen data. We use `train_test_split` to create an 80-20 split.
-
-### 3. Label Encoding
+### 2. Label Encoding
 Categorical variables (such as gender or target classes) are converted into numerical form using `LabelEncoder`:
 - **Why?** Neural networks and most machine learning algorithms work better with numerical data.
 - **How?** Each unique category is mapped to an integer value.
+- 
+### 3. Train-Test Split
+The dataset is split into **training** and **test sets** to ensure that model performance is evaluated on unseen data. We use `train_test_split` to create an 80-20 split.
 
 ### 4. Feature Scaling
 We use **StandardScaler** to standardize the features:
